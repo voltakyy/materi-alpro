@@ -736,14 +736,23 @@
   <!-- Sub Navigation (9 Tabs Total - Fully Active & Populated) -->
   <nav class="subnav-bar no-print">
     <div class="subnav-inner">
-      <button class="tab-btn active" onclick="switchTab('tab-diktat')">
-        <span>📚</span> Diktat &amp; UTS
+      <button class="tab-btn active" onclick="switchTab('tab-uts-2025')" style="border-bottom: 2px solid #3b82f6; font-weight:700;">
+        <span>🎯</span> UTS 2025/2026
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-uts-2024')" style="border-bottom: 2px solid #f59e0b; font-weight:700;">
+        <span>📜</span> UTS 2024/2025
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-komparasi')">
+        <span>⚖️</span> Komparasi 2025 vs 2024
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-diktat')">
+        <span>📚</span> Diktat Modul 1-5
       </button>
       <button class="tab-btn" onclick="switchTab('tab-tracing')">
-        <span>🧪</span> Tracing NIM
+        <span>🧪</span> Simulator NIM
       </button>
       <button class="tab-btn" onclick="switchTab('tab-kasir')">
-        <span>🛒</span> Kasir &amp; Diskon
+        <span>🛒</span> Kasir &amp; Flowchart
       </button>
       <button class="tab-btn" onclick="switchTab('tab-slicing-lab')">
         <span>🔤</span> Slicing Lab
@@ -752,7 +761,7 @@
         <span>⭐</span> Pola Bintang
       </button>
       <button class="tab-btn" onclick="switchTab('tab-hvs-cheatsheet')">
-        <span>📄</span> Lembar Catatan A4
+        <span>📄</span> Lembar HVS A4
       </button>
       <button class="tab-btn" onclick="switchTab('tab-flashcards')">
         <span>🗂️</span> Flashcards
@@ -769,8 +778,404 @@
   <!-- Main Container -->
   <main class="main-content">
 
+    <!-- ==================== TAB: BEDAH SOAL UTS 2025/2026 ==================== -->
+    <div id="tab-uts-2025" class="tab-pane active">
+      <div class="article-card" style="border-left: 4px solid var(--primary); background: linear-gradient(to right, var(--bg-surface-card), var(--bg-surface-elevated));">
+        <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px;">
+          <span style="background:var(--primary-light); color:var(--primary); border:1px solid var(--primary-border); padding:3px 10px; border-radius:var(--radius-full); font-size:11px; font-weight:700;">ARSIP RESMI REPOTIF HIMATIF UMS</span>
+          <span style="background:var(--emerald-bg); color:var(--accent-emerald); border:1px solid var(--emerald-border); padding:3px 10px; border-radius:var(--radius-full); font-size:11px; font-weight:700;">GASAL 2025/2026 (TERBARU)</span>
+          <span style="background:rgba(239,68,68,0.12); color:#ef4444; border:1px solid rgba(239,68,68,0.3); padding:3px 10px; border-radius:var(--radius-full); font-size:11px; font-weight:700;">BUKU TERTUTUP · 90 MENIT · KELAS ABCD</span>
+        </div>
+        <h1 style="font-size:24px; color:var(--text-main); margin-bottom:8px;">🎯 Bedah Tuntas Lembar Soal Asli UTS Gasal 2025/2026</h1>
+        <p style="color:var(--text-body); font-size:14px; margin-bottom:12px;">
+          Ujian diselenggarakan pada <strong>Rabu, 29 Oktober 2025 (Jam ke-3)</strong>. Dosen Penguji: <strong>Arif Setiawan, S.Kom., M.Eng.</strong>, <strong>Husni Thamrin, M.T., Ph.D.</strong>, dan <strong>Muhammad Syahriandi Adhantoro, S.Kom., M.Kom.</strong>
+        </p>
+        <div style="display:flex; flex-wrap:wrap; gap:8px; padding-top:10px; border-top:1px solid var(--border-subtle);">
+          <a href="repotif_arsip_alpro/doc_213_UTS_2025_Reguler_Algoritma_dan_Pemrograman_Reguler.pdf" target="_blank" class="nav-link-btn" style="padding:6px 14px; font-size:12px; text-decoration:none; display:inline-flex; align-items:center; gap:6px; background:var(--primary); color:#fff; border-radius:6px;">
+            <span>📄</span> Unduh Berkas Asli Pindaian UTS 2025 (PDF)
+          </a>
+          <button onclick="switchTab('tab-uts-2024')" class="nav-link-btn" style="padding:6px 14px; font-size:12px; cursor:pointer; background:var(--bg-surface-elevated); color:var(--text-main); border:1px solid var(--border-color); border-radius:6px;">
+            Lihat Soal UTS 2024 ➡️
+          </button>
+        </div>
+      </div>
+
+      <!-- SOAL 1 (UTS 2025) -->
+      <article class="article-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid var(--border-subtle); padding-bottom:8px;">
+          <h2 style="font-size:18px; margin:0; color:var(--primary);">📌 Soal 1: Konsep Dasar Algoritma &amp; Pemrograman</h2>
+          <span style="background:var(--primary-light); color:var(--primary); font-size:12px; font-weight:700; padding:2px 8px; border-radius:4px;">Bobot: 25 Poin (CPMK 1)</span>
+        </div>
+
+        <h3>1.a. Apa yang Anda ketahui dari Algoritma? (Skor: 5)</h3>
+        <div style="background:var(--bg-surface-elevated); padding:14px; border-radius:8px; border-left:3px solid var(--primary); margin-bottom:14px;">
+          <p style="margin:0 0 8px 0;"><strong>Jawaban Akademik Sempurna:</strong></p>
+          <p style="margin:0 0 8px 0; color:var(--text-body);">Kata <em>Algoritma</em> berasal dari nama matematikawan muslim Persia <strong>Abu Ja'far Muhammad bin Musa Al-Khawarizmi</strong>. Dalam bidang ilmu komputer, algoritma didefinisikan sebagai <strong>urutan langkah-langkah logis, terstruktur, dan terhingga yang disusun secara sistematis untuk memecahkan persoalan komputasi tertentu</strong>.</p>
+          <p style="margin:0; font-size:13px; color:var(--text-muted);"><strong>5 Karakteristik Mutlak Donald Knuth:</strong> (1) <em>Finiteness</em> (harus berakhir), (2) <em>Definiteness</em> (setiap langkah pasti dan tidak ambigu), (3) <em>Input</em> (nol atau lebih masukan), (4) <em>Output</em> (minimal satu keluaran), dan (5) <em>Effectiveness</em> (setiap operasi sederhana dan dapat diselesaikan dalam waktu wajar).</p>
+        </div>
+
+        <h3>1.b. Menurut Anda, apakah algoritma sama dengan flowchart? Jelaskan! (Skor: 5)</h3>
+        <div style="background:var(--bg-surface-elevated); padding:14px; border-radius:8px; border-left:3px solid var(--accent-amber); margin-bottom:14px;">
+          <p style="margin:0 0 8px 0;"><strong>Jawaban: TIDAK SAMA!</strong></p>
+          <p style="margin:0; color:var(--text-body);"><strong>Algoritma</strong> adalah esensi atau logika langkah-langkah pemecahan masalahnya (konsep abstrak). Sedangkan <strong>Flowchart (Diagram Alir)</strong> adalah salah satu bentuk <em>notasi representasi grafis/visual</em> dari algoritma tersebut menggunakan simbol-simbol geometris standar (misal: Oval untuk Terminator Mulai/Selesai, Jajar Genjang untuk Input/Output, Persegi Panjang untuk Proses, dan Belah Ketupat untuk Decision/Percabangan). Algoritma dapat ditulis dalam bahasa alami, pseudocode, maupun digambarkan sebagai flowchart.</p>
+        </div>
+
+        <h3>1.c. Menurut Anda, bagaimana struktur program yang baik? (Skor: 5)</h3>
+        <div style="background:var(--bg-surface-elevated); padding:14px; border-radius:8px; border-left:3px solid var(--accent-emerald); margin-bottom:14px;">
+          <p style="margin:0 0 8px 0;"><strong>Jawaban: Struktur Berpegang pada 3 Konstruksi Dasar (Structured Programming):</strong></p>
+          <ul style="margin:0 0 8px 18px; color:var(--text-body);">
+            <li><strong>Runtunan (Sequence):</strong> Instruksi dieksekusi teratur baris demi baris dari atas ke bawah.</li>
+            <li><strong>Percabangan (Selection):</strong> Mengatur keputusan alur berdasarkan kondisi boolean (<code>if-else</code>).</li>
+            <li><strong>Perulangan (Iteration):</strong> Mengulang instruksi selama kondisi bernilai benar (<code>for</code> / <code>while</code>).</li>
+          </ul>
+          <p style="margin:0; font-size:13px; color:var(--text-muted);">Selain itu, program yang baik memiliki sifat: <strong>Modular</strong> (dipecah dalam fungsi/prosedur independen), <strong>Readable</strong> (penamaan variabel bermakna &amp; indentasi rapi PEP 8), serta <strong>Robust</strong> (tahan terhadap kesalahan input pengguna).</p>
+        </div>
+
+        <h3>1.d. Perintah &amp; Contoh Program Python: Meminta 2 Input, Menampilkan Input, dan Menghitung Hasilnya (Skor: 10)</h3>
+        <div style="background:var(--bg-surface-elevated); padding:14px; border-radius:8px; margin-bottom:8px;">
+          <pre style="margin:0;"><code class="language-python"># 1. Meminta dua input dari pengguna (mengonversi dari teks/str ke numerik)
+angka1 = float(input("Masukkan angka pertama : "))
+angka2 = float(input("Masukkan angka kedua   : "))
+
+# 2. Menampilkan kembali hasil masing-masing inputan
+print("
+--- HASIL INPUT PENGGUNA ---")
+print("Angka pertama yang dimasukkan :", angka1)
+print("Angka kedua yang dimasukkan   :", angka2)
+
+# 3. Menghitung hasil keduanya
+penjumlahan = angka1 + angka2
+perkalian   = angka1 * angka2
+
+print("
+--- HASIL PERHITUNGAN ---")
+print(f"Hasil Penjumlahan ({angka1} + {angka2}) = {penjumlahan}")
+print(f"Hasil Perkalian   ({angka1} * {angka2}) = {perkalian}")</code></pre>
+        </div>
+      </article>
+
+      <!-- SOAL 2 (UTS 2025) -->
+      <article class="article-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid var(--border-subtle); padding-bottom:8px;">
+          <h2 style="font-size:18px; margin:0; color:var(--primary);">📌 Soal 2: Sistem Kasir Minimarket &amp; Flowchart Diskon 10%</h2>
+          <span style="background:var(--primary-light); color:var(--primary); font-size:12px; font-weight:700; padding:2px 8px; border-radius:4px;">Bobot: 40 Poin (CPMK 1)</span>
+        </div>
+        <p style="color:var(--text-muted); font-size:13.5px;">
+          <em>Soal: Sebuah minimarket memiliki sistem kasir untuk transaksi. Kasir akan memasukkan harga setiap barang dan jumlah barang yang dibeli. Setelah semua data dimasukkan, sistem menghitung total harga dan memberikan potongan 10% jika total pembelian lebih dari Rp 100.000.</em>
+        </p>
+
+        <h3>2.a. Algoritma Menghitung Total Harga dan Potongan (Skor: 20)</h3>
+        <pre><code class="language-text">ALGORITMA Kasir_Minimarket_Diskon10
+DEKLARASI:
+    harga_barang, jumlah_beli : Riil / Integer
+    subtotal, total_belanja   : Riil
+    diskon, total_bayar       : Riil
+    ulang                     : Karakter ('y' atau 't')
+
+DESKRIPSI:
+    1. total_belanja <- 0
+    2. ulang <- 'y'
+    3. SELAMA ulang = 'y' ATAU ulang = 'Y' LAKUKAN:
+           INPUT harga_barang
+           INPUT jumlah_beli
+           subtotal <- harga_barang * jumlah_beli
+           total_belanja <- total_belanja + subtotal
+           INPUT ulang ("Apakah ada barang lain? (y/t): ")
+    4. JIKA total_belanja > 100000 MAKA:
+           diskon <- 0.10 * total_belanja
+       SELAIN ITU:
+           diskon <- 0
+    5. total_bayar <- total_belanja - diskon
+    6. OUTPUT total_belanja, diskon, total_bayar
+    7. SELESAI</code></pre>
+
+        <h3>2.b. Flowchart Proses Perhitungan Kasir (Skor: 20)</h3>
+        <div style="text-align:center; padding:15px; background:var(--bg-surface-elevated); border-radius:8px; margin-bottom:12px;">
+          <svg viewBox="0 0 600 520" style="width:100%; max-width:540px; height:auto; font-family:var(--font-sans);">
+            <!-- Flowchart elements -->
+            <rect x="220" y="10" width="160" height="36" rx="18" fill="#3b82f6" />
+            <text x="300" y="33" fill="#fff" text-anchor="middle" font-size="12" font-weight="bold">Mulai (Start)</text>
+            <line x1="300" y1="46" x2="300" y2="70" stroke="var(--border-color)" stroke-width="2" marker-end="url(#arrow)" />
+
+            <rect x="180" y="70" width="240" height="40" fill="var(--bg-surface-card)" stroke="var(--border-color)" stroke-width="1.5" />
+            <text x="300" y="95" fill="var(--text-main)" text-anchor="middle" font-size="11">total_belanja = 0, ulang = 'y'</text>
+            <line x1="300" y1="110" x2="300" y2="135" stroke="var(--border-color)" stroke-width="2" />
+
+            <!-- Input Parallelogram -->
+            <polygon points="190,175 160,135 410,135 440,175" fill="var(--primary-light)" stroke="var(--primary)" stroke-width="1.5" />
+            <text x="300" y="159" fill="var(--primary)" text-anchor="middle" font-size="11" font-weight="600">Input harga_barang &amp; jumlah_beli</text>
+            <line x1="300" y1="175" x2="300" y2="200" stroke="var(--border-color)" stroke-width="2" />
+
+            <rect x="180" y="200" width="240" height="40" fill="var(--bg-surface-card)" stroke="var(--border-color)" stroke-width="1.5" />
+            <text x="300" y="225" fill="var(--text-main)" text-anchor="middle" font-size="11">total_belanja += harga * jumlah</text>
+            <line x1="300" y1="240" x2="300" y2="265" stroke="var(--border-color)" stroke-width="2" />
+
+            <!-- Diamond Decision -->
+            <polygon points="300,265 410,300 300,335 190,300" fill="var(--amber-bg)" stroke="var(--accent-amber)" stroke-width="1.5" />
+            <text x="300" y="304" fill="var(--accent-amber)" text-anchor="middle" font-size="11" font-weight="700">total_belanja &gt; 100.000 ?</text>
+
+            <!-- Yes branch -->
+            <line x1="410" y1="300" x2="490" y2="300" stroke="var(--border-color)" stroke-width="2" />
+            <line x1="490" y1="300" x2="490" y2="360" stroke="var(--border-color)" stroke-width="2" />
+            <text x="440" y="292" fill="var(--text-muted)" font-size="10">Ya</text>
+            <rect x="410" y="360" width="160" height="36" fill="var(--bg-surface-card)" stroke="var(--accent-emerald)" stroke-width="1.5" />
+            <text x="490" y="383" fill="var(--accent-emerald)" text-anchor="middle" font-size="11">diskon = 0.10 * total</text>
+
+            <!-- No branch -->
+            <line x1="190" y1="300" x2="110" y2="300" stroke="var(--border-color)" stroke-width="2" />
+            <line x1="110" y1="300" x2="110" y2="360" stroke="var(--border-color)" stroke-width="2" />
+            <text x="140" y="292" fill="var(--text-muted)" font-size="10">Tidak</text>
+            <rect x="40" y="360" width="140" height="36" fill="var(--bg-surface-card)" stroke="var(--border-color)" stroke-width="1.5" />
+            <text x="110" y="383" fill="var(--text-main)" text-anchor="middle" font-size="11">diskon = 0</text>
+
+            <!-- Merge -->
+            <line x1="490" y1="396" x2="490" y2="425" stroke="var(--border-color)" stroke-width="2" />
+            <line x1="110" y1="396" x2="110" y2="425" stroke="var(--border-color)" stroke-width="2" />
+            <line x1="110" y1="425" x2="490" y2="425" stroke="var(--border-color)" stroke-width="2" />
+            <line x1="300" y1="425" x2="300" y2="445" stroke="var(--border-color)" stroke-width="2" />
+
+            <polygon points="210,480 180,445 390,445 420,480" fill="var(--primary-light)" stroke="var(--primary)" stroke-width="1.5" />
+            <text x="300" y="467" fill="var(--primary)" text-anchor="middle" font-size="11" font-weight="600">Output Struk: Total, Diskon, Bayar</text>
+            <line x1="300" y1="480" x2="300" y2="500" stroke="var(--border-color)" stroke-width="2" />
+
+            <rect x="230" y="500" width="140" height="30" rx="15" fill="#3b82f6" />
+            <text x="300" y="520" fill="#fff" text-anchor="middle" font-size="11" font-weight="bold">Selesai (End)</text>
+          </svg>
+        </div>
+        <p style="text-align:center; font-size:13px; color:var(--text-muted);">
+          👉 Ingin mencoba simulasi kasir dinamis? Buka tab <button onclick="switchTab('tab-kasir')" class="btn btn-outline" style="padding:2px 8px; font-size:11px;">🛒 Kasir &amp; Diskon</button>
+        </p>
+      </article>
+
+      <!-- SOAL 3 (UTS 2025) -->
+      <article class="article-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid var(--border-subtle); padding-bottom:8px;">
+          <h2 style="font-size:18px; margin:0; color:var(--primary);">📌 Soal 3: Tracing Nilai Variabel String NIM (Bobot: 35)</h2>
+          <span style="background:var(--primary-light); color:var(--primary); font-size:12px; font-weight:700; padding:2px 8px; border-radius:4px;">Bobot: 35 Poin (CPMK 1)</span>
+        </div>
+        <p style="color:var(--text-muted); font-size:13.5px;">
+          <em>Soal: Pada program di bawah ini, gantilah teks 'L200101010' dengan NIM anda sendiri. Berapakah nilai yang tersimpan di variabel m, n, p, q, r, s, t, u, v, dan w setelah program dijalankan?</em>
+        </p>
+
+        <pre><code class="language-python">Z = 'L200101XXX' # ganti dengan NIM saudara
+m = Z[9:6:-1]
+n = int(m[0])
+p = int(m) + 19
+q = 15 - n
+r = p // 10
+s = 2 * m
+t = p % q
+u = t ** 2
+v = p - t
+w = n < 6</code></pre>
+
+        <h3>Kalkulator Interaktif Tracing NIM (Ketik NIM Anda Langsung):</h3>
+        <div style="background:var(--bg-surface-elevated); padding:16px; border-radius:8px; border:1px solid var(--border-color); margin-bottom:16px;">
+          <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-bottom:12px;">
+            <label style="font-size:13px; font-weight:700; color:var(--text-main);">Masukkan NIM Anda:</label>
+            <input type="text" id="nimInput2025" value="L200240182" maxlength="10" style="padding:6px 12px; border-radius:6px; background:var(--bg-surface-card); border:1px solid var(--border-color); color:var(--text-main); font-family:var(--font-mono); font-size:14px; font-weight:700;" oninput="hitungNim2025()">
+            <span style="font-size:12px; color:var(--text-muted);">(Contoh: L200240182 atau L200101209)</span>
+          </div>
+
+          <div id="nimResult2025Table" style="overflow-x:auto;">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- ==================== TAB: BEDAH SOAL UTS 2024/2025 ==================== -->
+    <div id="tab-uts-2024" class="tab-pane">
+      <div class="article-card" style="border-left: 4px solid var(--accent-amber); background: linear-gradient(to right, var(--bg-surface-card), var(--bg-surface-elevated));">
+        <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px;">
+          <span style="background:var(--primary-light); color:var(--primary); border:1px solid var(--primary-border); padding:3px 10px; border-radius:var(--radius-full); font-size:11px; font-weight:700;">ARSIP RESMI REPOTIF HIMATIF UMS</span>
+          <span style="background:var(--amber-bg); color:var(--accent-amber); border:1px solid var(--amber-border); padding:3px 10px; border-radius:var(--radius-full); font-size:11px; font-weight:700;">GASAL 2024/2025</span>
+          <span style="background:var(--emerald-bg); color:var(--accent-emerald); border:1px solid var(--emerald-border); padding:3px 10px; border-radius:var(--radius-full); font-size:11px; font-weight:700;">DIPERKENANKAN 1 LEMBAR CATATAN HVS A4</span>
+        </div>
+        <h1 style="font-size:24px; color:var(--text-main); margin-bottom:8px;">📜 Bedah Tuntas Lembar Soal Asli UTS Gasal 2024/2025</h1>
+        <p style="color:var(--text-body); font-size:14px; margin-bottom:12px;">
+          Ujian diselenggarakan pada <strong>Rabu, 30 Oktober 2024 (Jam ke-3)</strong> untuk Smt/Kelas 1/ABC. Terbagi atas <strong>Soal Tipe A (Dr. Husni Thamrin)</strong> dan <strong>Soal Tipe B (Arif Setiawan, M.Eng.)</strong>.
+        </p>
+        <div style="display:flex; flex-wrap:wrap; gap:8px; padding-top:10px; border-top:1px solid var(--border-subtle);">
+          <a href="repotif_arsip_alpro/doc_26_UTS_2024_Alpro_Algoritma_dan_Pemrograman.pdf" target="_blank" class="nav-link-btn" style="padding:6px 14px; font-size:12px; text-decoration:none; display:inline-flex; align-items:center; gap:6px; background:var(--accent-amber); color:#000; font-weight:700; border-radius:6px;">
+            <span>📄</span> Unduh Berkas Asli Pindaian UTS 2024 (PDF)
+          </a>
+          <button onclick="switchTab('tab-uts-2025')" class="nav-link-btn" style="padding:6px 14px; font-size:12px; cursor:pointer; background:var(--bg-surface-elevated); color:var(--text-main); border:1px solid var(--border-color); border-radius:6px;">
+            ⬅️ Lihat Soal UTS 2025 (Terbaru)
+          </button>
+        </div>
+      </div>
+
+      <!-- TIPE A: HUSNI THAMRIN -->
+      <article class="article-card" style="border: 1px solid var(--border-color);">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid var(--border-subtle); padding-bottom:8px;">
+          <h2 style="font-size:18px; margin:0; color:var(--accent-amber);">👨‍🏫 Soal Tipe A: Dr. Husni Thamrin, M.T., Ph.D.</h2>
+          <span style="background:var(--amber-bg); color:var(--accent-amber); font-size:12px; font-weight:700; padding:2px 8px; border-radius:4px;">Total Skor: 100</span>
+        </div>
+
+        <h3>A.1. Tiga Perintah Dasar Komputer (10-15 Baris Tulisan Tangan) (Skor: 30)</h3>
+        <div style="background:var(--bg-surface-elevated); padding:14px; border-radius:8px; border-left:3px solid var(--accent-amber); margin-bottom:14px;">
+          <p style="margin:0 0 8px 0; color:var(--text-body);">Dalam dunia komputasi dan pemrograman imperatif, setiap instruksi mesin tereduksi menjadi tiga operasi fundamental:</p>
+          <ol style="margin:0 0 8px 18px; color:var(--text-body); font-size:13.5px; line-height:1.7;">
+            <li><strong>Perintah Meminta Data (Input):</strong> Menerima data masukan mentah dari luar komputer (keyboard/berkas) ke dalam memori program. Di Python menggunakan fungsi <code>input()</code> yang menghasilkan nilai string.</li>
+            <li><strong>Perintah Menyimpan / Memproses Data (Assignment &amp; Storage):</strong> Menyimpan nilai ke dalam variabel memori RAM dengan operator penugasan <code>=</code> dan memanipulasinya dengan kalkulasi ekspresi aritmatika.</li>
+            <li><strong>Perintah Menampilkan Data (Output):</strong> Menyajikan hasil pengolahan komputasi ke terminal layar monitor pengguna menggunakan fungsi <code>print()</code>.</li>
+          </ol>
+          <pre style="margin:0;"><code class="language-python"># Contoh 3 Perintah Dasar Terpadu
+sisi = float(input("Masukkan panjang sisi persegi: ")) # 1. Meminta data
+luas = sisi * sisi                                    # 2. Menyimpan & memproses
+print(f"Luas persegi adalah: {luas} cm2")             # 3. Menampilkan data</code></pre>
+        </div>
+
+        <h3>A.2. Tracing Nilai Variabel NIM 'L200101209' (Skor: 30)</h3>
+        <p style="color:var(--text-muted); font-size:13px;">Diberikan Z = 'L200101209'. Hasil komputasi mutlak kesepuluh variabel adalah sebagai berikut:</p>
+        <table class="academic-table" style="margin-bottom:14px;">
+          <thead>
+            <tr><th>Variabel</th><th>Ekspresi Kode</th><th>Nilai Hasil</th><th>Tipe Data</th><th>Penjelasan Langkah</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><code>m</code></td><td><code>Z[9:6:-1]</code></td><td><code>'902'</code></td><td><code>str</code></td><td>Slicing mundur karakter index 9 ('9'), 8 ('0'), 7 ('2'). Berhenti sebelum index 6.</td></tr>
+            <tr><td><code>n</code></td><td><code>int(m[0])</code></td><td><code>9</code></td><td><code>int</code></td><td>Karakter pertama '9' dikonversi ke integer.</td></tr>
+            <tr><td><code>p</code></td><td><code>int(m) + 19</code></td><td><code>921</code></td><td><code>int</code></td><td>902 + 19 = 921.</td></tr>
+            <tr><td><code>q</code></td><td><code>15 - n</code></td><td><code>6</code></td><td><code>int</code></td><td>15 - 9 = 6.</td></tr>
+            <tr><td><code>r</code></td><td><code>p // 10</code></td><td><code>92</code></td><td><code>int</code></td><td>Pembagian bulat 921 // 10 = 92 (sisa dibuang).</td></tr>
+            <tr style="background:rgba(239,68,68,0.08); font-weight:700;"><td><code>s</code></td><td><code>2 * m</code></td><td><code>'902902'</code></td><td><code>str</code></td><td>⚠️ JEBAKAN POPULER: Karena m adalah string, 2 * m adalah duplikasi string!</td></tr>
+            <tr><td><code>t</code></td><td><code>p % q</code></td><td><code>3</code></td><td><code>int</code></td><td>Sisa bagi 921 modulo 6 (153 * 6 = 918, sisa 3).</td></tr>
+            <tr><td><code>u</code></td><td><code>t ** 2</code></td><td><code>9</code></td><td><code>int</code></td><td>3 pangkat 2 = 9.</td></tr>
+            <tr><td><code>v</code></td><td><code>p - t</code></td><td><code>918</code></td><td><code>int</code></td><td>921 - 3 = 918.</td></tr>
+            <tr><td><code>w</code></td><td><code>n &lt; 6</code></td><td><code>False</code></td><td><code>bool</code></td><td>Operasi relasional: 9 &lt; 6 bernilai Salah (False).</td></tr>
+          </tbody>
+        </table>
+
+        <h3>A.3. Penerjemahan Algoritma Koleksi ke Kode Python (Skor: 30)</h3>
+        <pre><code class="language-python">def hitung_jumlah(kol):
+    """
+    Menerjemahkan Algoritma jumlah(kol):
+    1. jml <- 0
+    2. Untuk setiap x dalam kol: jml <- jml + x
+    3. RETURN jml
+    """
+    jml = 0             # 1. jml <- 0
+    for x in kol:       # 2. Untuk setiap x dalam kol
+        jml = jml + x   #    jml <- jml + x
+    return jml          # 3. RETURN jml
+
+# Uji coba program
+koleksi = [10, 20, 30, 40, 50]
+print("Hasil jumlah koleksi:", hitung_jumlah(koleksi)) # Output: 150</code></pre>
+      </article>
+
+      <!-- TIPE B: ARIF SETIAWAN -->
+      <article class="article-card" style="border: 1px solid var(--border-color); margin-top:20px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid var(--border-subtle); padding-bottom:8px;">
+          <h2 style="font-size:18px; margin:0; color:var(--primary);">👨‍🏫 Soal Tipe B: Arif Setiawan, S.Kom., M.Eng.</h2>
+          <span style="background:var(--primary-light); color:var(--primary); font-size:12px; font-weight:700; padding:2px 8px; border-radius:4px;">Studi Kasus Nota Kopi (Skor: 90)</span>
+        </div>
+
+        <h3>1. Analisis Variabel, Perulangan &amp; Percabangan Nota PT Kopi Makmur</h3>
+        <ul style="color:var(--text-body); line-height:1.7;">
+          <li><strong>Identifikasi Variabel:</strong> <code>nama_kopi</code> (str), <code>qty</code> (float/int), <code>harga_satuan</code> (float), <code>subtotal</code> (float), <code>total_pembelian</code> (float), <code>diskon</code> (float), <code>total_bayar</code> (float).</li>
+          <li><strong>Identifikasi Perulangan:</strong> Fitur pembelian multi-item menggunakan loop <code>while True</code> dengan konfirmasi <code>input("Tambah item lagi? y/t")</code> untuk menambah barang secara akumulatif ke dalam list keranjang.</li>
+          <li><strong>Identifikasi Percabangan:</strong> Diskon 3% jika total pembelian di atas Rp 1.000.000:
+            <br><code>if total_pembelian > 1000000: diskon = 0.03 * total_pembelian else: diskon = 0</code>
+          </li>
+        </ul>
+
+        <h3>Implementasi Kode Program Python Lengkap Nota Kasir Kopi:</h3>
+        <pre><code class="language-python"># Program Nota Pembelian PT Kopi Makmur (Soal UTS 2024 Tipe B)
+keranjang = []
+total_pembelian = 0
+
+print("=== INPUT BARANG PT KOPI MAKMUR ===")
+while True:
+    nama = input("Nama Kopi         : ")
+    qty = float(input("Jumlah (Kg)       : "))
+    harga = float(input("Harga Satuan (Rp) : "))
+    
+    subtotal = qty * harga
+    total_pembelian += subtotal
+    keranjang.append({"nama": nama, "qty": qty, "harga": harga, "subtotal": subtotal})
+    
+    lagi = input("Tambah item kopi lain? (y/t): ").strip().lower()
+    if lagi != 'y':
+        break
+
+# Percabangan Diskon 3% jika total pembelian > 1.000.000
+if total_pembelian > 1000000:
+    diskon = 0.03 * total_pembelian
+else:
+    diskon = 0
+
+total_bayar = total_pembelian - diskon
+
+# Cetak Nota Resmi
+print("
+" + "="*50)
+print("              NOTA PEMBELIAN")
+print("              PT KOPI MAKMUR")
+print("="*50)
+for i, item in enumerate(keranjang, 1):
+    print(f"{i}. {item['nama']:<18} {int(item['qty'])} Kg x Rp {item['harga']:>8,.0f} = Rp {item['subtotal']:>9,.0f}")
+print("-"*50)
+print(f"Jumlah Pembelian : Rp {total_pembelian:>12,.0f}")
+print(f"Diskon (3%)      : Rp {diskon:>12,.0f}")
+print(f"Total Pembayaran : Rp {total_bayar:>12,.0f}")
+print("="*50)
+print("Metode Pembayaran: Transfer Bank")</code></pre>
+      </article>
+    </div>
+
+    <!-- ==================== TAB: KOMPARASI 2025 VS 2024 ==================== -->
+    <div id="tab-komparasi" class="tab-pane">
+      <div class="article-card" style="border-left: 4px solid var(--accent-emerald);">
+        <h1 style="font-size:22px; color:var(--text-main); margin-bottom:8px;">⚖️ Komparasi Pola Soal UTS 2025 vs 2024 (Informatika UMS)</h1>
+        <p style="color:var(--text-body); font-size:14px; margin-bottom:14px;">
+          Analisis perbandingan mendalam untuk memetakan pola kisi-kisi dan materi yang selalu diujikan dosen penguji (*Arif Setiawan, S.Kom., M.Eng.* &amp; *Husni Thamrin, M.T., Ph.D.*).
+        </p>
+
+        <table class="academic-table" style="margin-bottom:20px;">
+          <thead>
+            <tr><th>Kategori Analisis</th><th>UTS Gasal 2025/2026 (Terbaru)</th><th>UTS Gasal 2024/2025</th><th>Kesimpulan Pola / Tips Lulus</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Format Soal</strong></td>
+              <td>1 Set Soal Terpadu (Kelas ABCD)</td>
+              <td>2 Tipe Soal Terpisah (Tipe A: Husni Thamrin, Tipe B: Arif Setiawan)</td>
+              <td>Tahun 2025 penguji menggabungkan keahlian dosen menjadi satu kesatuan naskah ujian.</td>
+            </tr>
+            <tr>
+              <td><strong>Sifat Ujian</strong></td>
+              <td><strong>Buku Tertutup</strong> (Murni hafalan &amp; pemahaman logika)</td>
+              <td>Boleh membawa <strong>1 lembar catatan HVS A4</strong> bertuliskan tangan</td>
+              <td>Gunakan tab <button onclick="switchTab('tab-flashcards')" class="btn btn-outline" style="padding:1px 6px; font-size:11px;">🗂️ Flashcards</button> untuk menguasai hafalan konsep penting.</td>
+            </tr>
+            <tr>
+              <td><strong>Soal Teori Komputer</strong></td>
+              <td>Definisi algoritma, flowchart vs algoritma, struktur program baik, 2 inputan Python (25 Poin)</td>
+              <td>Tiga perintah dasar komputer (menampilkan, menyimpan, meminta data) 10-15 baris (30 Poin)</td>
+              <td><strong>MUTLAK:</strong> Pahami konsep dasar komputasi dan 3 operasi fundamental (Input, Storage, Output).</td>
+            </tr>
+            <tr>
+              <td><strong>Kasus Kasir &amp; Diskon</strong></td>
+              <td>Minimarket sederhana: diskon 10% jika &gt; 100.000 $ightarrow$ Algoritma &amp; Flowchart (40 Poin)</td>
+              <td>Nota Kopi Makmur: multi-item, diskon 3% jika &gt; 1.000.000 $ightarrow$ Pseudocode, Flowchart, Kode Python (90 Poin)</td>
+              <td><strong>SOAL WAJIB:</strong> Selalu ada studi kasus kasir dengan perulangan belanja multi-item dan percabangan diskon bertingkat!</td>
+            </tr>
+            <tr>
+              <td><strong>Tracing NIM Mahasiswa</strong></td>
+              <td>Rumus: <code>m = Z[9:6:-1]</code> dengan NIM bebas (35 Poin)</td>
+              <td>Rumus identik: <code>m = Z[9:6:-1]</code> dengan contoh NIM <code>L200101209</code> (30 Poin)</td>
+              <td><strong>POIN TERTINGGI:</strong> Rumus slicing 3 digit terakhir NIM yang dibalik ini selalu muncul! Hindari jebakan duplikasi string <code>2 * m</code>!</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
     <!-- ==================== TAB 1: DIKTAT TEORI ==================== -->
-    <div id="tab-diktat" class="tab-pane active">
+    <div id="tab-diktat" class="tab-pane">
       
       <!-- HERO BANNER -->
       <div class="article-card" style="border-left: 4px solid var(--primary); background: linear-gradient(to right, var(--bg-surface-card), var(--bg-surface-elevated));">
@@ -1660,6 +2065,7 @@ total_bayar = total - diskon</pre>
     function setPresetNim(val) {
       document.getElementById('input-nim').value = val;
       resetNimStepper();
+      hitungNim2025();
       runNimTracing();
     }
 
