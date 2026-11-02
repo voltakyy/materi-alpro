@@ -31,6 +31,19 @@ Aplikasi ini dibangun tanpa ketergantungan rumit (*zero external build dependenc
 
 ---
 
+## 📄 Pembahasan Lengkap & Video
+
+Berkas pendamping di luar portal interaktif:
+
+| Berkas | Isi |
+|---|---|
+| [`pembahasan/uts-2024-2025.md`](pembahasan/uts-2024-2025.md) | Pembahasan lengkap seluruh soal UTS 2024/2025 (Tipe A & B) dan 2025/2026: pseudocode, flowchart, kode Python, tabel tracing, rubrik, dan strategi belajar. |
+| [`pembahasan/trace_nim.py`](pembahasan/trace_nim.py) | Skrip tracing NIM (`m, n, p, q, r, s, t, u, v, w`) — jalankan dengan NIM sendiri. |
+| [`video/computational-thinking.mp4`](video/computational-thinking.mp4) | Video penjelasan materi 03 *Computational Thinking* (2:10, 1080p, narasi Bahasa Indonesia). |
+| [`video/src/`](video/src) | Sumber animasi + skrip render video (HTML/JS, TTS, ffmpeg). |
+
+---
+
 ## 📂 Struktur Berkas Repositori
 
 ```text
@@ -39,6 +52,13 @@ materi-alpro/
 ├── alpro.html                 # Salinan / alias untuk kompatibilitas tautan
 ├── README.md                  # Dokumentasi resmi proyek
 ├── .gitignore                 # Konfigurasi pengecualian Git
+├── pembahasan/                # Pembahasan UTS (Markdown) + skrip tracing NIM
+│   ├── uts-2024-2025.md
+│   └── trace_nim.py
+├── video/                     # Video Computational Thinking + sumber animasi
+│   ├── computational-thinking.mp4
+│   ├── README.md
+│   └── src/
 └── repotif_arsip_alpro/       # Berkas pindaian asli dari HIMATIF Repotif UMS
     ├── doc_213_UTS_2025_Reguler_Algoritma_dan_Pemrograman_Reguler.pdf
     ├── doc_213_UTS_2025_..._p1_img1.jpeg
