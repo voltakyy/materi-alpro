@@ -19,7 +19,10 @@ Aplikasi ini dibangun tanpa ketergantungan rumit (*zero external build dependenc
 
 | No | Modul / Fitur | Deskripsi |
 |---|---|---|
-| 1 | **📚 Diktat Teori & Bedah Soal UTS** | Rangkuman Modul 1 s.d. 5 + Bedah Soal Asli UTS gasal 2024/2025 & 2025/2026 (Dosen: *Arif Setiawan, S.Kom., M.Eng.* & *Husni Thamrin, M.T., Ph.D.*). Disertai tautan unduh berkas pindaian asli Repotif. |
+| 0 | **🚀 Halaman Khusus UTS 2026/2027 (`uts-2026.html`)** | Pindaian 3 lembar naskah resmi terbaru + pembahasan 100% akurat: Standar Deviasi & Bug Fixing, Pseudocode Denda Loop ke Python, dan Tracing NIM Slicing format 2026. |
+| 1 | **🎯 Halaman Khusus UTS 2025/2026 (`uts-2025.html`)** | Naskah resmi doc_213 UMS: Konsep Teori, Kasir Minimarket 10%, dan Tracing NIM Slicing mundur `Z[9:6:-1]`. |
+| 2 | **📜 Halaman Khusus UTS 2024/2025 (`uts-2024.html`)** | Naskah resmi doc_26 UMS: Paket Tipe A (Dr. Husni Thamrin) dan Paket Tipe B (Arif Setiawan, M.Eng.). |
+| 3 | **📚 Diktat Teori & Bedah Soal UTS** | Rangkuman Modul 1 s.d. 5 + Bedah Soal Asli UTS gasal 2024/2025 & 2025/2026 (Dosen: *Arif Setiawan, S.Kom., M.Eng.* & *Husni Thamrin, M.T., Ph.D.*). Disertai tautan unduh berkas pindaian asli Repotif. |
 | 2 | **🔢 Tracing NIM Stepper (Soal 1 UTS)** | Simulator eksekusi kode *line-by-line* untuk soal wajib UTS NIM Mahasiswa (`m, n, p, q, r, s, t, u, v, w`) dengan inspeksi nilai variabel real-time. |
 | 3 | **🛒 Kasir Minimarket & Flowchart (Soal 2 UTS)** | Simulasi kasir belanja dengan kalkulasi diskon bertingkat (`>= 100k: 5%`, `>= 250k: 10%`, `>= 500k: 15%`), visual flowchart SVG aktif, dan cetak struk. |
 | 4 | **✂️ Slicing Lab & String Sandbox (Soal 3 UTS)** | Penggaris indeks visual (positif & negatif), validator rumus `string[start:stop:step]`, detektor kalimat palindrom, dan mini-game tebak hasil slicing. |
