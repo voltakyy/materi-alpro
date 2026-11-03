@@ -1004,15 +1004,15 @@ print("Total denda:", total_denda)</code></pre>
         <div style="font-size:16px; font-weight:700; color:#f59e0b;">Total Denda = (Dua Digit Terakhir NIM) × Rp 2.000</div>
       </div>
 
-      <h4 style="color:var(--text-main);">Contoh Kasus 1: NIM L200240182 (Dua digit terakhir = 82)</h4>
-      <p style="font-size:13.5px;">Jika mahasiswa dengan NIM berakhiran <strong>82</strong> menjalankan program:</p>
+      <h4 style="color:var(--text-main);">Contoh Kasus 1: NIM L200260089 (Dua digit terakhir = 89)</h4>
+      <p style="font-size:13.5px;">Jika mahasiswa dengan NIM berakhiran <strong>89</strong> menjalankan program:</p>
       <ul>
-        <li>Jumlah iterasi: Loop <code>while</code> berputar sebanyak <strong>82 kali</strong> (hari 1 sampai hari 82).</li>
-        <li>Akumulasi denda: <code>82 × 2000 = 164000</code>.</li>
+        <li>Jumlah iterasi: Loop <code>while</code> berputar sebanyak <strong>89 kali</strong> (hari 1 sampai hari 89).</li>
+        <li>Akumulasi denda: <code>89 × 2000 = 178000</code>.</li>
         <li>Tampilan persis pada layar terminal/konsol:</li>
       </ul>
-      <pre style="background:#020617; border:1px solid #334155; color:#38bdf8;"><code>Masukkan hari terlambat: 82
-Total denda: 164000</code></pre>
+      <pre style="background:#020617; border:1px solid #334155; color:#38bdf8;"><code>Masukkan hari terlambat: 89
+Total denda: 178000</code></pre>
 
       <h4 style="color:var(--text-main);">Contoh Kasus 2: NIM L200240005 (Dua digit terakhir = 05 atau 5)</h4>
       <p style="font-size:13.5px;">Jika input adalah <strong>5</strong> hari:</p>
@@ -1039,7 +1039,7 @@ Total denda: 0</code></pre>
         <div style="font-weight:700; color:#3b82f6; font-size:14px; margin-bottom:8px;">⏱️ Simulator Interaktif Denda Keterlambatan NIM:</div>
         <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin-bottom:12px;">
           <label style="font-size:13px; font-weight:700; color:var(--text-main);">2 Digit Terakhir NIM Anda:</label>
-          <input type="number" id="inputDigitNimDenda" value="82" min="0" max="99" class="input-field" style="width:100px;" oninput="simulasiDendaLive()">
+          <input type="number" id="inputDigitNimDenda" value="89" min="0" max="99" class="input-field" style="width:100px;" oninput="simulasiDendaLive()">
           <button class="btn-action" style="background:#3b82f6; color:#fff;" onclick="simulasiDendaLive()">Simulasikan Konsol</button>
         </div>
 
@@ -1184,7 +1184,7 @@ h = c - 2 * e</code></pre>
             <th>Variabel</th>
             <th>Ekspresi Kode</th>
             <th>Nilai (NIM Default: L200101010)</th>
-            <th>Nilai (Contoh Mhs 2024: L200240182)</th>
+            <th>Nilai (NIM Anda: L200260089)</th>
             <th>Tipe Data</th>
           </tr>
         </thead>
@@ -1193,35 +1193,35 @@ h = c - 2 * e</code></pre>
             <td><code>a</code></td>
             <td><code>Z[1::4]</code></td>
             <td><strong style="color:#10b981;">'200'</strong></td>
-            <td><strong style="color:#10b981;">'242'</strong></td>
+            <td><strong style="color:#10b981;">'269'</strong></td>
             <td><code>str</code></td>
           </tr>
           <tr style="background:rgba(244,63,94,0.08);">
             <td><code>b</code></td>
             <td><code>2 * a + Z[-2]</code></td>
             <td><strong style="color:#f43f5e;">'2002001'</strong></td>
-            <td><strong style="color:#f43f5e;">'2422428'</strong></td>
+            <td><strong style="color:#f43f5e;">'2692698'</strong></td>
             <td><code>str</code></td>
           </tr>
           <tr>
             <td><code>c</code></td>
             <td><code>int(a) + 2</code></td>
             <td><strong>202</strong></td>
-            <td><strong>244</strong></td>
+            <td><strong>271</strong></td>
             <td><code>int</code></td>
           </tr>
           <tr style="color:var(--text-muted); font-size:12px;">
             <td><em>d (perantara)</em></td>
             <td><code>c % 10 - 3</code></td>
             <td><em>-1</em></td>
-            <td><em>1</em></td>
+            <td><em>-2</em></td>
             <td><code>int</code></td>
           </tr>
           <tr>
             <td><code>e</code></td>
             <td><code>c // 20 - 15</code></td>
             <td><strong>-5</strong></td>
-            <td><strong>-3</strong></td>
+            <td><strong>-2</strong></td>
             <td><code>int</code></td>
           </tr>
           <tr>
@@ -1235,14 +1235,14 @@ h = c - 2 * e</code></pre>
             <td><code>g</code></td>
             <td><code>e + d ** 2</code></td>
             <td><strong>-4</strong></td>
-            <td><strong>-2</strong></td>
+            <td><strong>2</strong></td>
             <td><code>int</code></td>
           </tr>
           <tr>
             <td><code>h</code></td>
             <td><code>c - 2 * e</code></td>
             <td><strong>212</strong></td>
-            <td><strong>250</strong></td>
+            <td><strong>275</strong></td>
             <td><code>int</code></td>
           </tr>
         </tbody>
@@ -1257,8 +1257,8 @@ h = c - 2 * e</code></pre>
 
         <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin-bottom:14px;">
           <label style="font-size:13px; font-weight:700; color:var(--text-main);">NIM Saudara:</label>
-          <input type="text" id="nimInput2026" value="L200240182" maxlength="10" class="input-field" style="width:180px; font-size:15px;" oninput="updateNimSimulator2026()">
-          <span style="font-size:12px; color:var(--text-muted);">(Format standar UMS: 10 karakter, misal L200240182)</span>
+          <input type="text" id="nimInput2026" value="L200260089" maxlength="10" class="input-field" style="width:180px; font-size:15px;" oninput="updateNimSimulator2026()">
+          <span style="font-size:12px; color:var(--text-muted);">(Format standar UMS: 10 karakter, misal L200260089)</span>
         </div>
 
         <div id="nimOutputTable2026" style="overflow-x:auto;"></div>
@@ -1311,7 +1311,7 @@ h = c - 2 * e</code></pre>
             </div>
             <div style="font-size:11.5px; color:#1e293b;">
               <strong>Rumus Denda:</strong> <code>n × Rp 2.000</code>.<br>
-              Contoh NIM akhiran <code>82</code> → Total denda: <strong>164000</strong>.
+              Contoh NIM akhiran <code>89</code> → Total denda: <strong>178000</strong>.
             </div>
           </div>
 
@@ -1448,7 +1448,7 @@ ${traceSteps ? '\n--- TRACE PERULANGAN WHILE ---\n' + traceSteps + '------------
       const rulerDiv = document.getElementById('rulerNimDisplay');
       if (!input || !tableDiv || !rulerDiv) return;
 
-      const raw = input.value.trim().toUpperCase() || 'L200240182';
+      const raw = input.value.trim().toUpperCase() || 'L200260089';
       const Z = raw.padEnd(10, '0').substring(0, 10);
 
       // Render Ruler
@@ -1566,3 +1566,4 @@ ${traceSteps ? '\n--- TRACE PERULANGAN WHILE ---\n' + traceSteps + '------------
   </script>
 </body>
 </html>
+
