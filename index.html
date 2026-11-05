@@ -101,7 +101,11 @@
       --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.08);
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; min-inline-size: 0; }
+    html, body {
+      max-width: 100vw;
+      overflow-x: clip;
+    }
     body {
       font-family: var(--font-sans);
       background: var(--bg-page);
@@ -695,6 +699,7 @@
 
     /* Responsive */
     @media (max-width: 768px) {
+      .header-actions .nav-link-btn { display: none; }
       .header-inner { padding: 10px 14px; }
       .brand-subtitle { display: none; }
       .subnav-inner { padding: 0 10px; }
